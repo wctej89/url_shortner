@@ -1,10 +1,17 @@
 <div class="container">
   <h1>URL Shortner</h1>
 
-  <form action="/" method="post">
-  	<input type="text" name="url" placeholder="Type url here&hellip;"></input>  
+  <form action="/" method="post" id="url">
+  	<input id="short" type="text" name="url" placeholder="Type url here&hellip;"></input>  
     <input type="submit" value="Shorten URL"> 
   </form>
-
+  <div id="error" style="display:none">
+  </div>
+  
+<!--   <div>
+  <% @all_urls.each do |foo| %>
+    <%= foo.url %>
+  <%end%>
+  </div> -->
   
 </div>
