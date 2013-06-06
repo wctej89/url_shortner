@@ -1,5 +1,6 @@
 $(document).ready(function() {
-    $('form').on("submit",function(ev){
+    $("#url").on("submit",function(ev){
+    console.log("in here");
     ev.preventDefault();
     $.ajax({
       type: "post",

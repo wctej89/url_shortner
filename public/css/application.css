@@ -2,8 +2,23 @@
   margin: 20px auto;
   width: 600px;
   padding: 0px 20px 20px 20px;
-  border: 1px dotted black;
+  height: 150px;
+  background-color: #12B0C5;
 }
 th {
   text-align: left;
+}
+
+body {
+  background-color: #ededed;
+}
+
+h1 {
+  padding-top: 10px;
+  color: white;
+}
+
+input {
+  background-color: #ededed;
+  border-radius: 5px;
 }
